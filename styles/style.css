@@ -1,0 +1,7 @@
+/* Mulish Font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&display=swap');
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
