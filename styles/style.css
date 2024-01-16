@@ -11,13 +11,13 @@ body {
 .logo-nav {
     display: flex;
     justify-content: space-between;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     align-items: center;
 }
 
 .logo {
     display: flex;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     align-items: center;
 }
 
@@ -47,4 +47,31 @@ body {
 }
 .nav li .active {
     color:#FF5400
+}
+.banner{
+    /* border: 1px solid tomato; */
+    background-image: url("../Images/Group13.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+    text-align: center;
+    padding: 100px 220px;
+    margin-bottom: 50px;
+}
+.banner-content{
+
+}
+.banner-content h2{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-content p{
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
 }
