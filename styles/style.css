@@ -223,10 +223,12 @@ p {
 .first-column{
     background-color: rgba(251, 181, 99, 0.2);
     padding: 40px 80px;
+    border-radius: 15px;
 }
 .second-column{
     background-color: rgba(41, 206, 246, 0.2);
     padding: 40px 80px;
+    border-radius: 15px;
 }
 
 .choose-us .choose-us-row-one{
@@ -234,12 +236,17 @@ p {
     grid-template-columns: 49% 49%;
     justify-content: space-between;
 }
+.choose-us-text p{
+    padding: 10px 400px;
+    line-height: 30px;
+}
 
 .choose-us-row-two{
     text-align: left;
     background-color: rgba(233, 68, 68, 0.2);
     width: 700px;
     margin: 20px auto;
+    border-radius: 15px;
 }
 .choose-us-row-two p{
     line-height: 30px;
