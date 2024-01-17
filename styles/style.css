@@ -297,16 +297,19 @@ footer {
 @media screen and (max-width: 576px) {
     .logo-nav {
         flex-direction: column;
-
+        justify-content: center;
+        
     }
 
     .banner {
         background-size: cover;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .banner-content {
-        padding-top: 0px;
+        padding-top: 40px;
     }
 
     .banner-content h2 {
@@ -316,11 +319,11 @@ footer {
     }
 
     .banner-content p {
-        color: rgb(233, 224, 224);
+        color: rgb(138, 49, 49);
         font-weight: 400;
         font-size: 16px;
         padding: 10px 50px;
-        color: #424247;
+        line-height: 25px;
     }
 
     .banner-info {
@@ -330,6 +333,8 @@ footer {
         gap: 10px;
         width: 260px;
         padding-top: 50px;
+        margin: 0 auto;
+        
     }
 
 }
