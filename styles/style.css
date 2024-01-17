@@ -3,9 +3,24 @@
 
 body {
     font-family: 'Mulish', sans-serif;
+}
+
+.container{
     max-width: 1440px;
     margin: 0 auto;
     margin-top: 50px;
+}
+
+h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .btn-primary {
@@ -109,9 +124,7 @@ body {
     margin-bottom: 50px;
 }
 
-.popular-tours-content {
-
-}
+.popular-tours-content {}
 
 .popular-tours-content h2 {
     padding: 0px;
@@ -120,6 +133,7 @@ body {
     font-size: 40px;
     font-weight: 800;
 }
+
 .popular-tours-content p {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
@@ -129,6 +143,7 @@ body {
     padding-bottom: 15px;
     line-height: 30px;
 }
+
 .popular-tours-content ul>li {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
@@ -139,39 +154,87 @@ body {
 
 .popular-tours-img {}
 
-.choose-destination{
+.choose-destination {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    margin-top: 100px;
 }
 
-.destination-row-one{
+.choose-destination h2 {
+    line-height: 0px;
+}
+
+.choose-destination p {padding: 25px 400px;}
+
+.destination-row-one {
     display: grid;
     grid-template-columns: 49.5% 49.5%;
     justify-content: space-between;
     margin-bottom: 15px;
 }
-.destination-row-one img{
+
+.destination-row-one img {
     width: 100%;
 }
-.destination-row-two{
+
+.destination-row-two {
     display: grid;
     grid-template-columns: 30% 43% 25%;
     justify-content: space-between;
     margin-bottom: 15px;
 }
-.destination-row-two img{
+
+.destination-row-two img {
     width: 100%;
     height: 350px;
 }
-.destination-row-three{
+
+.destination-row-three {
     display: grid;
     grid-template-columns: 40% 59%;
     justify-content: space-between;
 }
-.destination-row-three img{
+
+.destination-row-three img {
     width: 100%;
     height: 350px;
 }
+
+
+
+/* Footer Section */
+footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 100px 200px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0px;
+}
+
+.footer-text{
+padding: 15px 180px;
+}
+
+.social-links{   
+    padding: 50px 0px;
+}
+.social-links a{
+    text-decoration: none;
+}
+.social-links img{
+    margin-right: 20px;
+}
+
+
+.copyright{
+    padding: 50px 0px;
+}
+
 /* Responsive Media Query */
 
 /* For Small Devices */
